@@ -1,0 +1,102 @@
+// Variables
+$primary: #1877f2;
+$secondary: #5890ff;
+$tersier: #426792;
+$white: #fff;
+$second-white: #f6f7f8;
+
+// All Version (MOBILE)
+body {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+}
+
+.kiri {
+  background-image: url("../../img/login/hero-img.jpg");
+  background-size: cover;
+  height: 600px;
+  order: 2;
+}
+
+.kanan {
+  order: 1;
+  img {
+    margin-top: 4rem;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 65px;
+    margin-top: 3.5rem;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 32.5px;
+    margin-left: 2rem;
+  }
+
+  .tombol {
+    background-color: $primary;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    border-radius: 36px;
+  }
+
+  //   .tombol-1:hover {
+  //     background-color: $secondary;
+  //   }
+
+  .tombol-2 {
+    background-color: $second-white;
+    color: $primary;
+    padding-left: 7.4rem;
+    padding-right: 7.4rem;
+
+    // &:hover {
+    //   background-color: rgb(226, 226, 226);
+    // }
+  }
+}
+
+.copyright {
+  font-weight: 400;
+  color: rgb(163, 163, 163);
+}
+
+// Desktop Version
+@media (min-width: 992px) {
+  .kiri {
+    order: 1;
+  }
+
+  .kanan {
+    order: 2;
+    .tombol {
+      background-color: $primary;
+      font-weight: bold;
+      font-size: 17px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      border-radius: 36px;
+    }
+    .tombol-1:hover {
+      background-color: $secondary;
+    }
+
+    .tombol-2 {
+      background-color: $second-white;
+      color: $primary;
+      padding-left: 10.4rem;
+      padding-right: 10.4rem;
+
+      &:hover {
+        background-color: rgb(226, 226, 226);
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+body {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 400;
+}
+
+body section {
+  padding-top: 6rem;
+}
+
+.my-navbar .container .sticth-brand-name {
+  background: -webkit-gradient(linear, left top, right top, from(#5890ff), to(#1877f2));
+  background: linear-gradient(to right, #5890ff 0%, #1877f2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+  font-size: 29px;
+}
+
+.my-navbar .container .nav-link {
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.my-navbar .container .tombol {
+  border-radius: 8px;
+}
+
+.jumbotron {
+  background-color: #f6f7f8;
+}
+
+.jumbotron h1 {
+  font-weight: 400;
+  padding-top: 5rem;
+  text-shadow: 1px 1px 0.5px #000;
+}
+
+.jumbotron h1 span {
+  font-weight: 600;
+}
+
+.copyright {
+  margin-top: 5rem;
+  font-size: 15px;
+  color: grey;
+}
+
+@media (min-width: 992px) {
+  .my-navbar .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #5890ff;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .jumbotron h1 {
+    padding-top: 10rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

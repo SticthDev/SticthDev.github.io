@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../img/Logo.png" />
+
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Bootsrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../scss/developer1/developer1.css" />
+
+    <title>Sticth</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar">
+      <div class="container">
+        <a class="navbar-brand sticth-brand-name" href="#">Sticth</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search in Sticth" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">
+              <a href="" class="search-icon"><i class="bi bi-search"></i></a>
+            </button>
+          </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Message</a>
+            <a class="nav-link" href="#">Friends</a>
+            <a class="nav-link" href="#">Settings</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- sidebar -->
+    <a class="btn btn-primary user-profile-icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="bi bi-person-circle"></i></a>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Dropdown button</button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End of Sidebar -->
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 kiri">
+          <div class="my-3 p-3 bg-body rounded shadow-sm">
+            <h6 class="border-bottom pb-2 mb-0">
+              Happening Now <a href=""><i class="bi bi-plus-lg"></i></a>
+            </h6>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#007bff" />
+                <text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                Some representative placeholder content, with some information about this user. Imagine this being some sort of status update, perhaps?
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#e83e8c" />
+                <text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                Some more representative placeholder content, related to this other user. Another status update, perhaps.
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#6f42c1" />
+                <text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                This user also gets some representative placeholder content. Maybe they did something interesting, and you really want to highlight this in the recent updates.
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#007bff" />
+                <text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                Some representative placeholder content, with some information about this user. Imagine this being some sort of status update, perhaps?
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#e83e8c" />
+                <text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                Some more representative placeholder content, related to this other user. Another status update, perhaps.
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#6f42c1" />
+                <text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                This user also gets some representative placeholder content. Maybe they did something interesting, and you really want to highlight this in the recent updates.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fixed-end kanan">
+          <div class="my-3 p-3 bg-body rounded shadow-sm">
+            <h6 class="border-bottom pb-2 mb-0">Suggestions</h6>
+            <div class="d-flex text-muted pt-3">
+              <img src="../img/user-image-profile/angie.jpg" alt="user-profile" class="user-image-profile me-2" width="40" height="40" />
+
+              <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                <div class="d-flex justify-content-between">
+                  <strong class="text-gray-dark"><a href="" class="user-messages">Angie Marcheria</a></strong>
+                  <a href="#">Follow</a>
+                </div>
+                <span class="d-block">@angiemstwn</span>
+              </div>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <img src="../img/user-image-profile/albert.jpg" alt="user-profile" class="user-image-profile me-2" width="40" height="40" />
+
+              <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                <div class="d-flex justify-content-between">
+                  <strong class="text-gray-dark"><a href="" class="user-messages">Alberttt</a></strong>
+                  <a href="#">Follow</a>
+                </div>
+                <span class="d-block">@rrq_alberttt</span>
+              </div>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <img src="../img/user-image-profile/funi.jpg" alt="user-profile" class="user-image-profile me-2" width="40" height="40" />
+              <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                <div class="d-flex justify-content-between">
+                  <strong class="text-gray-dark"><a href="" class="user-messages">Fanny Cynthia</a></strong>
+                  <a href="#">Follow</a>
+                </div>
+                <span class="d-block">@evos.funi</span>
+              </div>
+            </div>
+            <small class="d-block text-end mt-3">
+              <a href="#">All suggestions</a>
+            </small>
+          </div>
+          <div class="row">
+            <div class="col kanan-bawah">
+              <div class="my-3 p-3 bg-body rounded shadow-sm">
+                <h6 class="border-bottom pb-2 mb-0">Messages <i class="bi bi-chat-left-dots-fill"></i></h6>
+                <div class="d-flex text-muted pt-3">
+                  <img src="../img/user-image-profile/velicitia.jpg" alt="user-profile" class="user-image-profile me-2" width="40" height="40" />
+
+                  <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                      <strong class="text-gray-dark"><a href="" class="user-messages">Velicitia</a></strong>
+                      <p>1 Nov</p>
+                    </div>
+                    <span class="d-block">Hi,how are you ?</span>
+                  </div>
+                </div>
+                <div class="d-flex text-muted pt-3">
+                  <img src="../img/user-image-profile/naufal.jpg" alt="user-profile" class="user-image-profile me-2" width="40" height="40" />
+
+                  <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                      <strong class="text-gray-dark"><a href="" class="user-messages">Fathan Tams</a></strong>
+                      <p>1 Oct</p>
+                    </div>
+                    <span class="d-block">Happy Birthdayyy</span>
+                  </div>
+                </div>
+                <div class="d-flex text-muted pt-3">
+                  <img src="../img/user-image-profile/nevin.jpg" alt="user-profile" class="user-image-profile me-2" width="40" height="40" />
+
+                  <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                      <strong class="text-gray-dark"><a href="" class="user-messages">Nevin Fulvian</a></strong>
+                      <p>29 Sep</p>
+                    </div>
+                    <span class="d-block">Wanna play ?</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

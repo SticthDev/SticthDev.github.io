@@ -1,0 +1,94 @@
+body {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+}
+
+.kiri {
+  background-image: url("../../img/login/hero-img.jpg");
+  background-size: cover;
+  height: 600px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.kanan {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.kanan img {
+  margin-top: 4rem;
+}
+
+.kanan h1 {
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 3.5rem;
+}
+
+.kanan h2 {
+  font-weight: bold;
+  font-size: 32.5px;
+  margin-left: 2rem;
+}
+
+.kanan .tombol {
+  background-color: #1877f2;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  border-radius: 36px;
+}
+
+.kanan .tombol-2 {
+  background-color: #f6f7f8;
+  color: #1877f2;
+  padding-left: 7.4rem;
+  padding-right: 7.4rem;
+}
+
+.copyright {
+  font-weight: 400;
+  color: #a3a3a3;
+}
+
+@media (min-width: 992px) {
+  .kiri {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .kanan {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .kanan .tombol {
+    background-color: #1877f2;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    border-radius: 36px;
+  }
+  .kanan .tombol-1:hover {
+    background-color: #5890ff;
+  }
+  .kanan .tombol-2 {
+    background-color: #f6f7f8;
+    color: #1877f2;
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
+  }
+  .kanan .tombol-2:hover {
+    background-color: #e2e2e2;
+  }
+}
+/*# sourceMappingURL=login.css.map */
