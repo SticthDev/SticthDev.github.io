@@ -13,7 +13,7 @@ function GetUserData() {
   } else if (UserName == "nauftams" && UserPassword == "velicitia") {
     location = "developer1.html";
   } else if (UserName == "reihanrez" && UserPassword == "fika") {
-    location = "274.html";
+    location = "page274.html";
   } else if (UserName == "benoathabisma260205" && UserPassword == "karina") {
     var cookies = prompt("Masi suka karina ga ?");
     if (cookies == "ya" || "masih") {
