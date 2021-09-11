@@ -19,6 +19,10 @@ body {
   width: 10px;
 }
 
+::-webkit-scrollbar-track {
+  border-radius: 50%;
+}
+
 .user-messages {
   color: gray;
   text-decoration: none;
