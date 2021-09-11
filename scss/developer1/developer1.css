@@ -51,6 +51,10 @@ body {
   color: #fff;
 }
 
+.sidebar-at-name {
+  color: gray;
+}
+
 @media (min-width: 900px) {
   .nav-link:hover::after {
     content: "";

@@ -59,6 +59,10 @@ body {
   color: $white;
 }
 
+.sidebar-at-name {
+  color: gray;
+}
+
 // Desktop Only
 @media (min-width: 900px) {
   .nav-link:hover::after {
